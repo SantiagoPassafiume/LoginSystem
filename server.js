@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const bcrypt = require('bcrypt');
 
 // This is bad practice, I should use a database to store the user information, but I'll use it for testing purposes.
 const users = [];
